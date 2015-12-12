@@ -1,6 +1,6 @@
 (function ()   
 {   var ie = !!(window.attachEvent && !window.opera);  
-    var wk = /webkit//(/d+)/i.test(navigator.userAgent) && (RegExp.$1 < 525);  
+    var wk = /webkit/i.test(navigator.userAgent) && (RegExp.$1 < 525);  
     var fn = [];   
     var run = function ()  
                 {   
